@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42F38C6F23A8CE9A002DD7A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F38C6E23A8CE9A002DD7A0 /* AppDelegate.swift */; };
+		42F38C7123A8CE9A002DD7A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F38C7023A8CE9A002DD7A0 /* SceneDelegate.swift */; };
+		42F38C7323A8CE9A002DD7A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F38C7223A8CE9A002DD7A0 /* ViewController.swift */; };
+		42F38C7623A8CE9A002DD7A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F38C7423A8CE9A002DD7A0 /* Main.storyboard */; };
+		42F38C7823A8CE9D002DD7A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F38C7723A8CE9D002DD7A0 /* Assets.xcassets */; };
+		42F38C7B23A8CE9D002DD7A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F38C7923A8CE9D002DD7A0 /* LaunchScreen.storyboard */; };
+		42F38C8623A8CE9E002DD7A0 /* GoodNewsMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F38C8523A8CE9E002DD7A0 /* GoodNewsMVVMTests.swift */; };
+		42F38C9123A8CE9E002DD7A0 /* GoodNewsMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F38C9023A8CE9E002DD7A0 /* GoodNewsMVVMUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42F38C8223A8CE9E002DD7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42F38C6323A8CE9A002DD7A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F38C6A23A8CE9A002DD7A0;
+			remoteInfo = GoodNewsMVVM;
+		};
+		42F38C8D23A8CE9E002DD7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42F38C6323A8CE9A002DD7A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F38C6A23A8CE9A002DD7A0;
+			remoteInfo = GoodNewsMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42F38C6B23A8CE9A002DD7A0 /* GoodNewsMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNewsMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F38C6E23A8CE9A002DD7A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42F38C7023A8CE9A002DD7A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42F38C7223A8CE9A002DD7A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42F38C7523A8CE9A002DD7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42F38C7723A8CE9D002DD7A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42F38C7A23A8CE9D002DD7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42F38C7C23A8CE9D002DD7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F38C8123A8CE9E002DD7A0 /* GoodNewsMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodNewsMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F38C8523A8CE9E002DD7A0 /* GoodNewsMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsMVVMTests.swift; sourceTree = "<group>"; };
+		42F38C8723A8CE9E002DD7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F38C8C23A8CE9E002DD7A0 /* GoodNewsMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodNewsMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F38C9023A8CE9E002DD7A0 /* GoodNewsMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsMVVMUITests.swift; sourceTree = "<group>"; };
+		42F38C9223A8CE9E002DD7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42F38C6823A8CE9A002DD7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F38C7E23A8CE9E002DD7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F38C8923A8CE9E002DD7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42F38C6223A8CE9A002DD7A0 = {
+			isa = PBXGroup;
+			children = (
+				42F38C6D23A8CE9A002DD7A0 /* GoodNewsMVVM */,
+				42F38C8423A8CE9E002DD7A0 /* GoodNewsMVVMTests */,
+				42F38C8F23A8CE9E002DD7A0 /* GoodNewsMVVMUITests */,
+				42F38C6C23A8CE9A002DD7A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42F38C6C23A8CE9A002DD7A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F38C6B23A8CE9A002DD7A0 /* GoodNewsMVVM.app */,
+				42F38C8123A8CE9E002DD7A0 /* GoodNewsMVVMTests.xctest */,
+				42F38C8C23A8CE9E002DD7A0 /* GoodNewsMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42F38C6D23A8CE9A002DD7A0 /* GoodNewsMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				42F38C6E23A8CE9A002DD7A0 /* AppDelegate.swift */,
+				42F38C7023A8CE9A002DD7A0 /* SceneDelegate.swift */,
+				42F38C7223A8CE9A002DD7A0 /* ViewController.swift */,
+				42F38C7423A8CE9A002DD7A0 /* Main.storyboard */,
+				42F38C7723A8CE9D002DD7A0 /* Assets.xcassets */,
+				42F38C7923A8CE9D002DD7A0 /* LaunchScreen.storyboard */,
+				42F38C7C23A8CE9D002DD7A0 /* Info.plist */,
+			);
+			path = GoodNewsMVVM;
+			sourceTree = "<group>";
+		};
+		42F38C8423A8CE9E002DD7A0 /* GoodNewsMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				42F38C8523A8CE9E002DD7A0 /* GoodNewsMVVMTests.swift */,
+				42F38C8723A8CE9E002DD7A0 /* Info.plist */,
+			);
+			path = GoodNewsMVVMTests;
+			sourceTree = "<group>";
+		};
+		42F38C8F23A8CE9E002DD7A0 /* GoodNewsMVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42F38C9023A8CE9E002DD7A0 /* GoodNewsMVVMUITests.swift */,
+				42F38C9223A8CE9E002DD7A0 /* Info.plist */,
+			);
+			path = GoodNewsMVVMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42F38C6A23A8CE9A002DD7A0 /* GoodNewsMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F38C9523A8CE9E002DD7A0 /* Build configuration list for PBXNativeTarget "GoodNewsMVVM" */;
+			buildPhases = (
+				42F38C6723A8CE9A002DD7A0 /* Sources */,
+				42F38C6823A8CE9A002DD7A0 /* Frameworks */,
+				42F38C6923A8CE9A002DD7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodNewsMVVM;
+			productName = GoodNewsMVVM;
+			productReference = 42F38C6B23A8CE9A002DD7A0 /* GoodNewsMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42F38C8023A8CE9E002DD7A0 /* GoodNewsMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F38C9823A8CE9E002DD7A0 /* Build configuration list for PBXNativeTarget "GoodNewsMVVMTests" */;
+			buildPhases = (
+				42F38C7D23A8CE9E002DD7A0 /* Sources */,
+				42F38C7E23A8CE9E002DD7A0 /* Frameworks */,
+				42F38C7F23A8CE9E002DD7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42F38C8323A8CE9E002DD7A0 /* PBXTargetDependency */,
+			);
+			name = GoodNewsMVVMTests;
+			productName = GoodNewsMVVMTests;
+			productReference = 42F38C8123A8CE9E002DD7A0 /* GoodNewsMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42F38C8B23A8CE9E002DD7A0 /* GoodNewsMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F38C9B23A8CE9E002DD7A0 /* Build configuration list for PBXNativeTarget "GoodNewsMVVMUITests" */;
+			buildPhases = (
+				42F38C8823A8CE9E002DD7A0 /* Sources */,
+				42F38C8923A8CE9E002DD7A0 /* Frameworks */,
+				42F38C8A23A8CE9E002DD7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42F38C8E23A8CE9E002DD7A0 /* PBXTargetDependency */,
+			);
+			name = GoodNewsMVVMUITests;
+			productName = GoodNewsMVVMUITests;
+			productReference = 42F38C8C23A8CE9E002DD7A0 /* GoodNewsMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42F38C6323A8CE9A002DD7A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Agnes Lo";
+				TargetAttributes = {
+					42F38C6A23A8CE9A002DD7A0 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					42F38C8023A8CE9E002DD7A0 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 42F38C6A23A8CE9A002DD7A0;
+					};
+					42F38C8B23A8CE9E002DD7A0 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 42F38C6A23A8CE9A002DD7A0;
+					};
+				};
+			};
+			buildConfigurationList = 42F38C6623A8CE9A002DD7A0 /* Build configuration list for PBXProject "GoodNewsMVVM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42F38C6223A8CE9A002DD7A0;
+			productRefGroup = 42F38C6C23A8CE9A002DD7A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42F38C6A23A8CE9A002DD7A0 /* GoodNewsMVVM */,
+				42F38C8023A8CE9E002DD7A0 /* GoodNewsMVVMTests */,
+				42F38C8B23A8CE9E002DD7A0 /* GoodNewsMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42F38C6923A8CE9A002DD7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F38C7B23A8CE9D002DD7A0 /* LaunchScreen.storyboard in Resources */,
+				42F38C7823A8CE9D002DD7A0 /* Assets.xcassets in Resources */,
+				42F38C7623A8CE9A002DD7A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F38C7F23A8CE9E002DD7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F38C8A23A8CE9E002DD7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42F38C6723A8CE9A002DD7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F38C7323A8CE9A002DD7A0 /* ViewController.swift in Sources */,
+				42F38C6F23A8CE9A002DD7A0 /* AppDelegate.swift in Sources */,
+				42F38C7123A8CE9A002DD7A0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F38C7D23A8CE9E002DD7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F38C8623A8CE9E002DD7A0 /* GoodNewsMVVMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F38C8823A8CE9E002DD7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F38C9123A8CE9E002DD7A0 /* GoodNewsMVVMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42F38C8323A8CE9E002DD7A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F38C6A23A8CE9A002DD7A0 /* GoodNewsMVVM */;
+			targetProxy = 42F38C8223A8CE9E002DD7A0 /* PBXContainerItemProxy */;
+		};
+		42F38C8E23A8CE9E002DD7A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F38C6A23A8CE9A002DD7A0 /* GoodNewsMVVM */;
+			targetProxy = 42F38C8D23A8CE9E002DD7A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42F38C7423A8CE9A002DD7A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F38C7523A8CE9A002DD7A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42F38C7923A8CE9D002DD7A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F38C7A23A8CE9D002DD7A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42F38C9323A8CE9E002DD7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42F38C9423A8CE9E002DD7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42F38C9623A8CE9E002DD7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64DU9866R3;
+				INFOPLIST_FILE = GoodNewsMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lohsts.GoodNewsMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42F38C9723A8CE9E002DD7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64DU9866R3;
+				INFOPLIST_FILE = GoodNewsMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lohsts.GoodNewsMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42F38C9923A8CE9E002DD7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64DU9866R3;
+				INFOPLIST_FILE = GoodNewsMVVMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lohsts.GoodNewsMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodNewsMVVM.app/GoodNewsMVVM";
+			};
+			name = Debug;
+		};
+		42F38C9A23A8CE9E002DD7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64DU9866R3;
+				INFOPLIST_FILE = GoodNewsMVVMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lohsts.GoodNewsMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodNewsMVVM.app/GoodNewsMVVM";
+			};
+			name = Release;
+		};
+		42F38C9C23A8CE9E002DD7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64DU9866R3;
+				INFOPLIST_FILE = GoodNewsMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lohsts.GoodNewsMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodNewsMVVM;
+			};
+			name = Debug;
+		};
+		42F38C9D23A8CE9E002DD7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64DU9866R3;
+				INFOPLIST_FILE = GoodNewsMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lohsts.GoodNewsMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodNewsMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42F38C6623A8CE9A002DD7A0 /* Build configuration list for PBXProject "GoodNewsMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F38C9323A8CE9E002DD7A0 /* Debug */,
+				42F38C9423A8CE9E002DD7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F38C9523A8CE9E002DD7A0 /* Build configuration list for PBXNativeTarget "GoodNewsMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F38C9623A8CE9E002DD7A0 /* Debug */,
+				42F38C9723A8CE9E002DD7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F38C9823A8CE9E002DD7A0 /* Build configuration list for PBXNativeTarget "GoodNewsMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F38C9923A8CE9E002DD7A0 /* Debug */,
+				42F38C9A23A8CE9E002DD7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F38C9B23A8CE9E002DD7A0 /* Build configuration list for PBXNativeTarget "GoodNewsMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F38C9C23A8CE9E002DD7A0 /* Debug */,
+				42F38C9D23A8CE9E002DD7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42F38C6323A8CE9A002DD7A0 /* Project object */;
+}
